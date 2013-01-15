@@ -25,10 +25,5 @@ package
 			//FP.console.enable();
 			FP.screen.color = 0x7777FF;
 		}
-		
-		override public function update():void 
-		{
-			super.update();
-		}
 	}
 }

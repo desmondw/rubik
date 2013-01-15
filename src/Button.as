@@ -16,9 +16,9 @@ package
 		private var _strayEvent:Function;		//leaves from button
 		
 		//graphics
-		private var _normalGraphic:Graphic;		//no interaction
-		private var _hoverGraphic:Graphic;		//mouse over button
-		private var _downGraphic:Graphic;		//mouse held over button
+		protected var _normalGraphic:Graphic;		//no interaction
+		protected var _hoverGraphic:Graphic;		//mouse over button
+		protected var _downGraphic:Graphic;			//mouse held over button
 		
 		//flags
 		private var _mouseHovering:Boolean = false;		//used to track stray event
@@ -83,8 +83,6 @@ package
 			
 			this.graphic = graphic;
 			_normalGraphic = graphic;
-			this.width = width;
-			this.height = height;
 		}
 		
 		/**
