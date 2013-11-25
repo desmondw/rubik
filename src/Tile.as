@@ -47,7 +47,7 @@ package
 		 * @param	tileX		Index of x position on grid.
 		 * @param	tileY		Index of y position on grid.
 		 */
-		public function setGridPosition(tileX:int, tileY:int):void 
+		public function registerGridPosition(tileX:int, tileY:int):void 
 		{
 			this.tileX = tileX;
 			this.tileY = tileY;
